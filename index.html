@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Modal PopUp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-wrapper">
+          <div class="card1" id="card">
+            <img src="Images/t-shirt Image 1.webp" id="img-1" alt="Shirt Image 2">
+            <h3 class="header">Crazy bee T-shirt for men</h3>
+            <h3 class="price">$30</h3>
+            <h3 class="description">Description:</h3>
+            <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nihil distinctio?
+            </p>
+            <p class="para" id="moreText" style="display: none;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium impedit repellendus nostrum, voluptatibus beatae corporis repellat necessitatibus asperiores. Similique, quos!  
+            </p>
+            <button id="toggleButton">Read More</button>
+            <button id="buyNow">BUY NOW</button>
+          </div>
+        </div>
+        
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+                <h1>THANK YOU FOR BUYING THIS PRODUCT</h1>
+                <p class="modal-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, odio.</p>
+                <button id="close">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
